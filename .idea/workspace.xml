@@ -2,19 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60c9dde9-5fde-4728-b46e-3eb16b0acf60" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/cart-page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/home-page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actions/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/book-list-item/book-list-item.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/book-list-item/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/book-list-item/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/book-list/book-list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/book-list/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/book-list/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/app/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/hoc/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hoc/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/hoc/with-bokstore-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hoc/with-bokstore-service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/bookstore-service.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/bookstore-service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/home-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/home-page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +23,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -37,6 +36,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -47,13 +47,14 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="C:\Users\Arkh\Desktop\study\re-store\src\components\App" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Arkh\Desktop\study\re-store\src\components\bookstore-service-context" />
       <recent name="C:\Users\Arkh\Desktop\study\re-store\src\components\spinner" />
       <recent name="C:\Users\Arkh\Desktop\study\re-store\src\components\error-indicator" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Arkh\Desktop\study\re-store\src\components\App" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -94,8 +95,16 @@
       <option name="presentableId" value="Default" />
       <updated>1583242603402</updated>
       <workItem from="1583242605473" duration="6772000" />
-      <workItem from="1583381462546" duration="4089000" />
+      <workItem from="1583381462546" duration="9344000" />
     </task>
+    <task id="LOCAL-00001" summary="Routing 134">
+      <created>1583385696234</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583385696234</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,5 +120,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Routing 134" />
+    <option name="LAST_COMMIT_MESSAGE" value="Routing 134" />
   </component>
 </project>
