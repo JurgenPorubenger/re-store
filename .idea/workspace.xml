@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60c9dde9-5fde-4728-b46e-3eb16b0acf60" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/actions/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/book-list-item/book-list-item.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/book-list-item/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/book-list-item/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/book-list/book-list.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/book-list/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/book-list/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/app/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/home-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/home-page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="60c9dde9-5fde-4728-b46e-3eb16b0acf60" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +84,7 @@
       <updated>1583242603402</updated>
       <workItem from="1583242605473" duration="6772000" />
       <workItem from="1583381462546" duration="9344000" />
+      <workItem from="1583502058799" duration="602000" />
     </task>
     <task id="LOCAL-00001" summary="Routing 134">
       <created>1583385696234</created>
@@ -115,7 +104,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
