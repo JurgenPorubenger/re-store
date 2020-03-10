@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import BookListItem from "../book-list-item";
 import './index.css'
 import { connect } from 'react-redux'
-import {bindActionCreators} from 'redux'
+// import {bindActionCreators} from 'redux'
 import {compose} from '../../utils'
 import {withBookStoreService} from '../hoc'
 import {fetchBooks} from '../../actions'

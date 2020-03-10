@@ -20,3 +20,11 @@
     color: cadetblue;
     margin-right: 10px;
 }
+header {
+    display: flex;
+    justify-content: space-around;
+}
+i {
+    margin: 0 1rem;
+    color: cadetblue;
+}

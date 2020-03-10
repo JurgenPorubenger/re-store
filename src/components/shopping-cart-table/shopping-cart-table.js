@@ -1,21 +1,19 @@
 import React from "react";
 
 
-
-
-
-
 const ShoppingCartTable = ({items, total, onIncrease, onDecrease, onDelete}) => {
     return (
         <div className="shopping-cart-table">
             <h2>Your order</h2>
             <table className="table">
                 <thead>
-                    <th>#</th>
-                    <th>Item</th>
-                    <th>Count</th>
-                    <th>Price</th>
-                    <th>Action</th>
+                    <tr>
+                        <th>#</th>
+                        <th>Item</th>
+                        <th>Count</th>
+                        <th>Price</th>
+                        <th>Action</th>
+                    </tr>
                 </thead>
                 <tbody>
                     <tr>

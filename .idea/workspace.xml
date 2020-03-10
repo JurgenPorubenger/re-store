@@ -3,7 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="60c9dde9-5fde-4728-b46e-3eb16b0acf60" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/book-list-item/book-list-item.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/book-list-item/book-list-item.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/book-list-item/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/book-list-item/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/book-list/book-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/book-list/book-list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/bookstore-service-context/bookstore-service-context.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bookstore-service-context/bookstore-service-context.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/shop-header/shop-header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shop-header/shop-header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/shop-header/shop-header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shop-header/shop-header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/shopping-cart-table/shopping-cart-table.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shopping-cart-table/shopping-cart-table.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/bookstore-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/bookstore-service.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -89,6 +98,7 @@
       <workItem from="1583381462546" duration="9344000" />
       <workItem from="1583502058799" duration="13266000" />
       <workItem from="1583812818857" duration="5178000" />
+      <workItem from="1583848620247" duration="4354000" />
     </task>
     <task id="LOCAL-00001" summary="Routing 134">
       <created>1583385696234</created>
