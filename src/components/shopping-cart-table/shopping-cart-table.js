@@ -10,7 +10,13 @@ const ShoppingCartTable = ({items, total, onIncrease, onDecrease, onDelete}) => 
         <div className="shopping-cart-table">
             <h2>Your order</h2>
             <table className="table">
-                <thead />
+                <thead>
+                    <th>#</th>
+                    <th>Item</th>
+                    <th>Count</th>
+                    <th>Price</th>
+                    <th>Action</th>
+                </thead>
                 <tbody>
                     <tr>
                         <td>1</td>
