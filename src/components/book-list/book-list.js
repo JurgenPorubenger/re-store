@@ -39,6 +39,7 @@ class BookListContainer extends Component {
         if (error) {
             return <ErrorIndicator />
         }
+        console.log(books);
         return <BookList books = {books} onAddedToCart={onAddedToCart} />
     }
 }

@@ -3,7 +3,7 @@ const initialState = {
     loading:true,
     error: null,
     cartItems: [],
-    orderTotal: 220
+    orderTotal: 150
 };
 const reducer = (state=initialState,action) => {
     switch (action.type) {
@@ -17,7 +17,9 @@ const reducer = (state=initialState,action) => {
         case 'FETCH_BOOKS_SUCCESS':
             return {
                 ...state,
-                books: action.payload,
+                books: action.payload.map((item) => {
+                    return {...item,count:0}
+        }),
                 loading: false,
                 error:null
             };
@@ -34,13 +36,14 @@ const reducer = (state=initialState,action) => {
             const newItem = {
                 id: book.id,
                 name: book.title,
-                count: book.count,
-                total: book.price+=book.price,
+                count: book.count++,
+                price: book.price*book.count,
             };
+            // const newState = state.cartItems.filter((item)=>item.id!==bookId).push(newItem);
             return {
                 ...state,
                 cartItems: [
-                    ...state.cartItems,
+                    ...state.cartItems.filter((item)=>item.id!==bookId),
                     newItem
                 ]
             };
