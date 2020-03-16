@@ -4,13 +4,10 @@
     <list default="true" id="60c9dde9-5fde-4728-b46e-3eb16b0acf60" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/book-list/book-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/book-list/book-list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/shopping-cart-table/shopping-cart-table.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shopping-cart-table/shopping-cart-table.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store.js" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,10 +25,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1YcWwkkvco8hwSUCAvQJTuFXBd5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Codewars-1" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -41,7 +44,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -53,18 +56,6 @@
       <recent name="C:\Users\Arkh\Desktop\study\re-store\src\components\spinner" />
       <recent name="C:\Users\Arkh\Desktop\study\re-store\src\components\error-indicator" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -98,6 +89,10 @@
       <workItem from="1583848620247" duration="4395000" />
       <workItem from="1583925621291" duration="5427000" />
       <workItem from="1584002637488" duration="7036000" />
+      <workItem from="1584284340631" duration="572000" />
+      <workItem from="1584284952866" duration="38000" />
+      <workItem from="1584284999291" duration="233000" />
+      <workItem from="1584285242657" duration="9274000" />
     </task>
     <task id="LOCAL-00001" summary="Routing 134">
       <created>1583385696234</created>
@@ -159,5 +154,31 @@
     <MESSAGE value="fix some" />
     <MESSAGE value="fix some2" />
     <option name="LAST_COMMIT_MESSAGE" value="fix some2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="421" y="82" key="FileChooserDialogImpl" timestamp="1584286922292">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="82" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1584286922292" />
+    <state width="1259" height="163" key="GridCell.Tab.0.bottom" timestamp="1584285405250">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584285405250" />
+    <state width="1259" height="163" key="GridCell.Tab.0.center" timestamp="1584285405250">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1584285405250" />
+    <state width="1259" height="163" key="GridCell.Tab.0.left" timestamp="1584285405250">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1584285405250" />
+    <state width="1259" height="163" key="GridCell.Tab.0.right" timestamp="1584285405250">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1584285405250" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1584285400280">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1584285400280" />
   </component>
 </project>

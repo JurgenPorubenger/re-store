@@ -1,18 +1,23 @@
 import React from "react";
 import {connect} from 'react-redux'
 import './index.css'
+import {
+    bookAddedToCart,
+    bookRemovedFromCart,
+    allBookRemovedFromCart
+} from '../../actions/index'
 
 const ShoppingCartTable = ({items, total, onIncrease, onDecrease, onDelete}) => {
     console.log(items);
     const renderRow = (item,idx) => {
-        const {id, name, count,price, total} = item;
+        const {id, name, count, total} = item;
         console.log(count);
         return (
             <tr key={id}>
                 <td>{idx+1}</td>
                 <td>{name}</td>
                 <td>{count}</td>
-                <td>${price}</td>
+                <td>${total}</td>
                 <td>
                     <button
                         onClick={()=>onDecrease(id)}
@@ -42,7 +47,7 @@ const ShoppingCartTable = ({items, total, onIncrease, onDecrease, onDelete}) => 
                         <th>#</th>
                         <th>Item</th>
                         <th>Count</th>
-                        <th>Price</th>
+                        <th>Total</th>
                         <th>Action</th>
                     </tr>
                 </thead>
@@ -63,11 +68,11 @@ const mapStateToProps = ({cartItems, orderTotal}) => {
         total:orderTotal
     }
 };
-const mapDispatchToProps = () => {
+const mapDispatchToProps = (dispatch) => {
     return {
-        onIncrease:(id)=>console.log('Increase'+id),
-        onDecrease:(id)=>console.log('Decrease'+id),
-        onDelete:(id)=>console.log('Delete'+id)
+        onIncrease:(id)=>dispatch(bookAddedToCart(id)),
+        onDecrease:(id)=>dispatch(bookRemovedFromCart(id)),
+        onDelete:(id) => dispatch(allBookRemovedFromCart(id))
     }
 };
 export default connect(mapStateToProps,mapDispatchToProps)(ShoppingCartTable)
