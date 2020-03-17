@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60c9dde9-5fde-4728-b46e-3eb16b0acf60" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/reducers/book-list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/shopping-cart.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/book-list/book-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/book-list/book-list.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/shopping-cart-table/shopping-cart-table.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shopping-cart-table/shopping-cart-table.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/index.js" afterDir="false" />
     </list>
@@ -16,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -92,7 +93,7 @@
       <workItem from="1584284340631" duration="572000" />
       <workItem from="1584284952866" duration="38000" />
       <workItem from="1584284999291" duration="233000" />
-      <workItem from="1584285242657" duration="9274000" />
+      <workItem from="1584285242657" duration="15692000" />
     </task>
     <task id="LOCAL-00001" summary="Routing 134">
       <created>1583385696234</created>
@@ -129,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583939468797</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fix some6">
+      <created>1584335882056</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1584335882056</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,9 +161,14 @@
     <MESSAGE value="add styles" />
     <MESSAGE value="fix some" />
     <MESSAGE value="fix some2" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix some2" />
+    <MESSAGE value="fix some6" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix some6" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1584335881212">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1584335881212" />
     <state x="421" y="82" key="FileChooserDialogImpl" timestamp="1584286922292">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -180,5 +193,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1584285400280" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1584335889875">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1584335889875" />
   </component>
 </project>
